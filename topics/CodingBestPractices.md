@@ -1,4 +1,4 @@
-# Coding Best Practices (by Leif Myklebust, Steve Coffman, John Schultz and others)
+# Coding Best Practices (compiled and written by Leif Myklebust, Steve Coffman, John Schultz and others)
 
 ## Coding Best Practices
 
