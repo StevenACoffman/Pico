@@ -4,7 +4,7 @@ This is the Big 4. The architectures that may help your work. They may influence
 
 1. [HexagonalArchitecture](#1-the-hexagonal-architecture)
 2. [CleanArchitecture](#2-the-clean-architecture)
-3. [DDD/CQRS](#3-ddd/cqrs)
+3. [DDD/CQRS](#3-dddcqrs)
 4. [DCI](#4-dci)
 
  # 1. The Hexagonal Architecture
