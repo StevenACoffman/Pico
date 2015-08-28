@@ -21,7 +21,8 @@ Also see:
 * [Screaming Architecture](https://blog.8thlight.com/uncle-bob/2011/09/30/Screaming-Architecture.html)
 * [The Chicken or The Road](https://blog.8thlight.com/uncle-bob/2014/01/27/TheChickenOrTheRoad.html)
 * [Clean Microservice](http://blog.cleancoder.com/uncle-bob/2014/10/01/CleanMicroserviceArchitecture.html)
-
+* [Obvious Architecture - Ruby](http://retromocha.com/obvious/)
+* [Viper - iOS](https://www.objc.io/issues/13-architecture/viper/)
 Bob Martin prefers an inside-out approach compared to GOOS/Hexagonal. He likes to focus on the business rules first, and then put a UI around it later.
 
 The center of your application is also not the database. Nor is it one or more of the frameworks you may be using. The center of your application are the use cases of your application. Persistence and UI are both annoying details that should be easily replaced.
@@ -65,4 +66,8 @@ In summary, DCI architectures tend to be characterized by the following properti
 * These networks are potentially re-created on every use case enactment;
 * Roles come in and out of scope with use case lifetimes, but objects that may play these Roles may persist across multiple use case lifetimes and may potentially play many Roles over their own lifetime.
 
-## What is the difference?
+## Why do we care?
+
+This is why:
+![alt text](https://github.com/StevenACoffman/Pico/raw/master/topics/images/longevity.jpg "Bitovi JavaScript Longevity")
+(This image from [Bitovi here](http://blog.bitovi.com/longevity-or-lack-thereof-in-javascript-frameworks/).)
