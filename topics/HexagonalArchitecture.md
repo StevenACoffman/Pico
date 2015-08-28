@@ -11,7 +11,9 @@ Enhanced and popularised by Steve Freeman and Nat Pryce, thanks to their book: h
 so this is also known as GOOS.
 
 They recommend an outside-in approach to developing systems. You start at the interface and work your way in to the business rules.
+
 ![alt text](https://cdn.rawgit.com/StevenACoffman/Pico/master/topics/images/ports-and-adapters-architecture.svg "Hexagonal Architecture")
+
 2. [The Clean Architecture](http://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 
 Originally described as BCE by Ivar Jacobson from his book Object Oriented Software Engineering: A Use-Case Driven Approach, but enhanced and popularised by Robert "Uncle Bob" Martin: [The Clean Architecture](http://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html)
@@ -38,7 +40,9 @@ If you were to look at two completely different event driven applications, say Q
 This shape is the system architecture, and it is dictated by the desired user experience -- not by the problem domain. I could, for example, write an accounting application, like Quicken, in a batch style. I could, though it would be a deep shame, write an adventure program like Minecraft, in a request/response style. So architecture and problem domain are discontinuous -- they do not form a continuum -- they differ in kind not just in level.
 
 This discontinuity means that, although we can use TDD to help us with the design of the problem domain, we cannot use it to help us with the architecture. TDD can't even be begun until we know the shape of the system that is to be created.
+
 ![alt text](https://github.com/StevenACoffman/Pico/raw/master/topics/images/CleanArchitecture.jpg "Bob Martin Clean Architecture")
+
 3. DDD/CQRS
 
 DDD: [Domain-Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design) by Eric Evans
@@ -65,7 +69,9 @@ In summary, DCI architectures tend to be characterized by the following properti
 * The network of Interactions between Roles in the code (i.e., at coding time) is the same as the corresponding network of objects at run time;
 * These networks are potentially re-created on every use case enactment;
 * Roles come in and out of scope with use case lifetimes, but objects that may play these Roles may persist across multiple use case lifetimes and may potentially play many Roles over their own lifetime.
+
 ![alt text](https://cdn.rawgit.com/StevenACoffman/Pico/master/topics/images/DCI.svg "Reenskaug DCI")
+
 ## Why do we care?
 
 This is why:
