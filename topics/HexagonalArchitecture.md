@@ -30,6 +30,7 @@ Also see:
 * [Clean Microservice](http://blog.cleancoder.com/uncle-bob/2014/10/01/CleanMicroserviceArchitecture.html)
 * [Obvious Architecture - Ruby](http://retromocha.com/obvious/)
 * [Viper - iOS](https://www.objc.io/issues/13-architecture/viper/)
+
 Bob Martin prefers an inside-out approach compared to GOOS/Hexagonal. He likes to focus on the business rules first, and then put a UI around it later.
 
 The center of your application is also not the database. Nor is it one or more of the frameworks you may be using. The center of your application are the use cases of your application. Persistence and UI are both annoying details that should be easily replaced.
