@@ -7,7 +7,7 @@ This is the Big 4. The architectures that may help your work. They may influence
 3. [DDD/CQRS](#3-dddcqrs)
 4. [DCI](#4-dci)
 
- # 1. The Hexagonal Architecture
+# 1. The Hexagonal Architecture
 
 (also known as the Ports and Adapters)
 
