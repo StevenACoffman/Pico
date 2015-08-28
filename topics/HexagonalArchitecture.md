@@ -11,7 +11,7 @@ Enhanced and popularised by Steve Freeman and Nat Pryce, thanks to their book: h
 so this is also known as GOOS.
 
 They recommend an outside-in approach to developing systems. You start at the interface and work your way in to the business rules.
-![alt text](https://github.com/StevenACoffman/Pico/raw/master/topics/images/ports-and-adapters-architecture.svg "Hexagonal Architecture")
+![alt text](https://cdn.rawgit.com/StevenACoffman/Pico/master/topics/images/ports-and-adapters-architecture.svg "Hexagonal Architecture")
 2. [The Clean Architecture](http://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 
 Originally described as BCE by Ivar Jacobson from his book Object Oriented Software Engineering: A Use-Case Driven Approach, but enhanced and popularised by Robert "Uncle Bob" Martin: [The Clean Architecture](http://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html)
@@ -65,7 +65,7 @@ In summary, DCI architectures tend to be characterized by the following properti
 * The network of Interactions between Roles in the code (i.e., at coding time) is the same as the corresponding network of objects at run time;
 * These networks are potentially re-created on every use case enactment;
 * Roles come in and out of scope with use case lifetimes, but objects that may play these Roles may persist across multiple use case lifetimes and may potentially play many Roles over their own lifetime.
-![alt text](https://github.com/StevenACoffman/Pico/raw/master/topics/images/DCI.svg "Reenskaug DCI")
+![alt text](https://cdn.rawgit.com/StevenACoffman/Pico/master/topics/images/DCI.svg "Reenskaug DCI")
 ## Why do we care?
 
 This is why:
