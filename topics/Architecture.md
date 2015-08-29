@@ -1,6 +1,7 @@
-# The Four Architectures that will inspire your programming
+[Originally from http://andrzejonsoftware.blogspot.com/2013/12/the-four-architectures-that-will.html]
+# The Four Application Architectures that will inspire your programming
 
-This is the Big 4. The architectures that may help your work. They may influence the way you think about programming.
+This is the Big 4. The application architectures that may help your work. They may influence the way you think about programming and software design.
 
 1. [HexagonalArchitecture](#1-the-hexagonal-architecture)
 2. [CleanArchitecture](#2-the-clean-architecture)

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookmarks>
+  <site name="EclEmma" selected="true" url="http://update.eclemma.org/"/>
+  <site name="Egit" selected="true" url="http://download.eclipse.org/egit/updates"/>
+  <site name="Mars" selected="true" url="http://download.eclipse.org/releases/mars"/>
+  <site name="Maven (Java EE) Integration for Eclipse WTP (Mars)" selected="true" url="http://download.eclipse.org/m2e-wtp/releases/mars/1.2"/>
+  <site name="MoreUnit Update" selected="true" url="http://moreunit.sourceforge.net/update-site/"/>
+  <site name="Mylyn for Eclipse Mars" selected="true" url="http://download.eclipse.org/mylyn/releases/mars"/>
+  <site name="org.eclipse.e4.ui update site" selected="true" url="http://download.eclipse.org/e4/snapshots/org.eclipse.e4.ui"/>
+  <site name="STS" selected="true" url="http://dist.springsource.com/release/TOOLS/update/e4.5/"/>
+  <site name="SubClipse" selected="true" url="http://subclipse.tigris.org/update_1.10.x"/>
+  <site name="SVNKit" selected="true" url="http://eclipse.svnkit.com/1.8.x"/>
+  <site name="The Eclipse Project Updates" selected="true" url="http://download.eclipse.org/eclipse/updates/4.5/"/>
+  <site name="The Eclipse Web Tools Platform (WTP) software repository" selected="true"
+    url="http://download.eclipse.org/webtools/repository/mars"/>
+  <site name="" selected="false" url="http://download.boulder.ibm.com/ibmdl/pub/software/websphere/wasce/updates/"/>
+  <site name="" selected="false" url="http://download.eclipse.org/mylyn/releases/3.16"/>
+  <site name="" selected="false" url="http://download.eclipse.org/webtools/updates"/>
+  <site name="" selected="false" url="http://eclipse.tmatesoft.com/svnkit/1.8.x/"/>
+  <site name="" selected="false" url="http://geronimo.apache.org/devtools/"/>
+  <site name="" selected="false" url="http://jope.ow2.org/update/jope/"/>
+  <site name="" selected="false" url="http://master.dl.sourceforge.net/project/sapnweclipse/updates/"/>
+  <site name="" selected="false" url="http://www.apache.org/dist/geronimo/eclipse/updates/"/>
+</bookmarks>
