@@ -1,0 +1,51 @@
+Promises are not callbacks. A promise represents the future result of an asynchronous operation.
+
+Promises are also called futures and deferreds in some communities.
+
+    The point of promises is to give us back functional composition and error bubbling in the async world. They do this by saying that your functions should return a promise, which can do one of two things:
+
+        Become fulfilled by a value
+        Become rejected with a reason
+
+    And, if you have a correctly implemented then function that follows Promises/A+, then fulfillment and rejection will compose just like their synchronous counterparts, with fulfillments flowing up a compositional chain, but being interrupted at any time by a rejection that is only handled by someone who declares they are ready to handle it.
+
+The promise states are given as “pending”, “fulfilled”, and “rejected”.
+When promises are fulfilled, they have a “value”; when they are rejected, they have a “reason”.
+It introduces the term “thenable” as distinct from “promise”, so as to more precisely talk about the duck-typing tests necessary for implementation interoperation.
+
+
+	
+
+Yes, Promises are asynchronous callbacks. They can't do anything that callbacks can't do, and you face the same problems with asynchrony as with plain callbacks.
+
+However, Promises are more than just callbacks. They are a very mighty abstraction, allow cleaner and better, functional code with less error-prone boilerplate.
+
+    So what's the main idea?
+
+Promises are objects representing the result of a single (asynchronous) computation. They resolve to that result only once. There's a few things what this means:
+
+Promises implement an observer pattern:
+
+    You don't need to know the callbacks that will use the value before the task completes.
+    Instead of expecting callbacks as arguments to your functions, you can easily return a Promise object
+    The promise will store the value, and you can transparently add a callback whenever you want. It will be called when the result is available. "Transparency" implies that when you have a promise and add a callback to it, it doesn't make a difference to your code whether the result has arrived yet - the API and contracts are the same, simplifying caching/memoisation a lot.
+    You can add multiple callbacks easily
+
+Promises are chainable (monadic, if you want):
+
+    If you need to transform the value that a promise represents, you map a transform function over the promise and get back a new promise that represents the transformed result. You cannot synchronously get the value to use it somehow, but you can easily lift the transformation in the promise context. No boilerplate callbacks.
+    If you want to chain two asynchronous tasks, you can use the .then() method. It will take a callback to be called with the first result, and returns a promise for the result of the promise that the callback returns.
+
+Callbacks are imperative, promises are functional.
+
+jQuery implemented Promises in version 1.5. Sort of. The error handling is busted, but they can be assimilated by bluebird, Q, etc.
+
+Why jQuery promises are broken
+
+The problem with jQuery’s implementation (up until version 1.9) is that it doesn’t respect the second part of the specification, “This function should return a new promise…”, that is “then” doesn’t return a new promise object when executing one of the handlers (either the fullfillment, the rejection or the progress handler).
+
+This means we cannot do function composition as we don’t have a “then” function to chain to, and we won’t have error bubbling due to a broken chain, the two most important points about this spec.
+Finally, what we have is just callback aggregation.
+
+Promises are the present and the future of Javascript asynchronous operations, they provide an elegant and readable code and more importantly they allow function composition and error bubbling, making async more similar to sync programming style, thus making the life of a developer a little bit easier!
+

@@ -1,0 +1,10 @@
+jquery selects elements based on data attributes, rather than classes. Classes are for designers, who can rename them, or reorganize them. Behavior is linked to data attributes.
+
+
+ 
+
+selector ='[data-behavior=~=expandable]'
+expandSelector = '{selector}[data-behavior~=expand_on_click]'
+$(document).on ('click', expandSelector, (event) -> 
+
+)

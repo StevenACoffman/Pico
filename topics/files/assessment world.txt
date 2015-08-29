@@ -1,0 +1,6 @@
+Author - Enables educators to author questions, organize them into assessments, and store and edit them within repositories.
+Delivery - Controls the presentation and scheduling of the authored assessment or evaluation to assigned participants.
+Score - Grades the assessment responses and calculates results for machine score-able assessments. Provides interfaces for hand scored assessments.
+Report - Presents assessment results to participants, coordinators, and administrators. Aggregates results for class, term, and longitudinal needs.
+Analyze - Allows for Item analysis and other views for the assessment results.
+

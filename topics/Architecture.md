@@ -37,6 +37,30 @@ Bob Martin prefers an inside-out approach compared to GOOS/Hexagonal. He likes t
 
 The center of your application is also not the database. Nor is it one or more of the frameworks you may be using. The center of your application are the use cases of your application. Persistence and UI are both annoying details that should be easily replaced.
 
+### Entities
+Entities are business objects, functions or data structures, that are responsible for all the non application specific business rules.
+
+This means that if you have multiple applications that share the same domain (business) objects, the entities should not need to change in order to be usable by all of them.
+
+### Interactors or Use Cases
+Interactors represent the layer for application specific business rules.
+
+This is where most of the magic happens, they control the entire flow of the application, using entities, but never changing them.
+
+They should not, however, be affected by changes to the UI, whichever they may be.
+
+### Boundaries or Adapters
+A boundary is the interface that translates information from the outside into the format the application uses, as well as translating it back when the information is going out.
+
+These boundaries may not be explicit, so much as they are logical or conceptual. In any case, they are there and you should be aware of it.
+
+### The Dependency Rule
+This is the single most important concept, and you must always take it into consideration.
+
+The dependency rule states that source code dependencies can only point inward.
+
+There's a generalization of the rule that applies to any application, source code dependencies can only point in one direction.
+
 ---
 
 > Applications can be mapped into several broad classifications. For example, our application might be a request/response system, like nearly all websites. Or it might be an event driven system, like most computer games. Or it might be a batch processing system, like most old banking and manufacturing applications.

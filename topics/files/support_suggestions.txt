@@ -1,0 +1,29 @@
+Problem: Too much manual, repetitive process work (intelectual drudgery)
+Solution: Preferential Option for Reducing Support Burden
+
+New Support / Tech Team Process:
+Ticket Recieved
+Analyze how we could make it so no similar ticket is ever recieved, unless exceptional circumstances
+Improve Documentation (end user or developer)
+Microproject
+ 
+Microproject types:
+Automating Manual Repetitive Tasks
+Empower Users to meet their own needs*
+Make Apps Self-Maintaining (e.g. no manual yearly setups)
+End User Documentation Improvements
+
+* Give users the ability to do anything. If they mess up, they can fix it themselves
+
+Microproject Source:
+Rotating members
+Permanent support members
+Outside BA
+Leads / Architect
+
+Barriers:
+Too big to complete in short time (rotation, day, etc.)
+Not familiar enough with patterns to know what is repepetive
+Technology is often ancient
+Public End user documentation is sometimes lacking
+Fire Drill mentality

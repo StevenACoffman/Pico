@@ -1,0 +1,96 @@
+Javascript Testing Tactics
+hello@testdouble.com
+
+Front end craftsmanship Consulting
+
+Book - Growing object oriented software guided by tests 
+
+Jasmine
+What I don't do:
+-Don't use Jasmine's RSpec like language
+-Don't write my specs with Javascript
+-default plain HTML test runner
+-jasmine-rails
+-jasmine-maven-plugin
+-any server side dependent plugin
+-start a fake server that can stub and verify AJAX calls
+-monkey-patch the browser's XHR facilities
+-invoke a code by trigerring UI events
+-write async tests for async code
+-say "llkfd <table/>" and skip writing tests against teh DOM
+-use HTML fixture files
+
+
+Urge to make it feel like things are really working
+We spend time making our tests uncomplicated, and obscures the value of tests
+"Only mock what you own"
+Test pain isn't actionable on 3rd party libraries
+
+(async tests) - Test yields execution control
+lots of noise in test setup
+speed/timeoutconcerns
+hard to debug race conditions
+test pain isn't actionable
+you'll write more DOM-heavy code via the path of least resistance
+-hampers true outside-in TDD (user, using software -> function, database, etc.)
+(fixture)large input -> larger everything
+tests should push for small units
+Sharing fixtures leads to a "tragedy of the commons"
+
+
+
+
+
+Jasmine DSL has to be learned
+idiomatic usage is non-obvious
+produces distracting, verbose code
+dat crying mustach emoticon });
+
+
+What I do
+-write specs in Coffeescript
+-use the jasmine-given DSL
+-use Testem as runner (node.js)
+-Run all my tests in under a second on every single file change
+-WRap XHR lib in object I own
+-Let it's API grow iwht my needs
+-only integration test the wrapper
+-use jasmine-stealth to capture functions
+-only write async APIs when useful
+-extract callbacks out of app code and into decorators and mixins
+-take advantage of promises
+-use jasmine-stealth when anonymous callback behavior
+-treat the DOM like a 3rd-party depency - minimizing app's exposure
+-affix HTML with jasmine-fixture
+-arrive at single purpose functions
+
+
+
+Coffeescript basics
+var add = function 
+add = (a, b) ->
+ a + b
+ 
+ this.save();
+ @save()
+ 
+ var self = this;
+ save(function(){ 
+   selfdisplay("Yay")!
+ })
+ 
+ save =>
+   @display("Yay!")
+   
+ 
+ 
+
+In TDD when the test fails each code change should either
+Pass the test, or change the message
+
+
+
+Practicing TDD in JS for years taught me how to write better code
+When TDD feels rote, it means I learned something. 
+So then I use it less.
+Give it a try! I'll help!
