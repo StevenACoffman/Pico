@@ -12,12 +12,13 @@ This is the Big 4. The architectures that may help your work. They may influence
 (also known as the Ports and Adapters)
 
 Originally described by Alistair Cockburn in http://alistair.cockburn.us/Hexagonal+architecture.
-Enhanced and popularised by Steve Freeman and Nat Pryce, thanks to their book: http://www.growing-object-oriented-software.com/
+Enhanced and popularized by Steve Freeman and Nat Pryce, thanks to their book: http://www.growing-object-oriented-software.com/
 so this is also known as GOOS.
 
 They recommend an outside-in approach to developing systems. You start at the interface and work your way in to the business rules.
 
 ![alt text](https://cdn.rawgit.com/StevenACoffman/Pico/master/topics/images/ports-and-adapters-architecture.svg "Hexagonal Architecture")
+Image from Steve Freeman and Nat Pryce [here](http://www.growing-object-oriented-software.com/figures.html)
 
 # 2. The Clean Architecture
 
@@ -48,6 +49,7 @@ The center of your application is also not the database. Nor is it one or more o
 > This discontinuity means that, although we can use TDD to help us with the design of the problem domain, we cannot use it to help us with the architecture. TDD can't even be begun until we know the shape of the system that is to be created.
 
 ![alt text](https://github.com/StevenACoffman/Pico/raw/master/topics/images/CleanArchitecture.jpg "Bob Martin Clean Architecture")
+Image from Bob Martin [here](http://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 
 # 3. DDD/CQRS
 
@@ -77,6 +79,7 @@ In summary, DCI architectures tend to be characterized by the following properti
 * Roles come in and out of scope with use case lifetimes, but objects that may play these Roles may persist across multiple use case lifetimes and may potentially play many Roles over their own lifetime.
 
 ![alt text](https://cdn.rawgit.com/StevenACoffman/Pico/master/topics/images/DCI.svg "Reenskaug DCI")
+Image from Trygve Reenskaug [here](http://folk.uio.no/trygver/2008/commonsense.pdf)
 
 ## Why do we care?
 
