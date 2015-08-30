@@ -42,12 +42,14 @@ Entities are business objects, functions or data structures, that are responsibl
 
 This means that if you have multiple applications that share the same domain (business) objects, the entities should not need to change in order to be usable by all of them.
 
+You want to make sure not to pass entities around (especially a), since they come with a bunch of business rules attached, instead you should pass value objects, or plain data structures.
+
 ### Interactors or Use Cases
 Interactors represent the layer for application specific business rules.
 
 This is where most of the magic happens, they control the entire flow of the application, using entities, but never changing them.
 
-They should not, however, be affected by changes to the UI, whichever they may be.
+They should not, however, be affected by changes to the UI, whichever they may be. They could use the Command Design pattern and be executed.
 
 ### Boundaries or Adapters
 A boundary is the interface that translates information from the outside into the format the application uses, as well as translating it back when the information is going out.
