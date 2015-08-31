@@ -37,14 +37,14 @@ Bob Martin prefers an inside-out approach compared to GOOS/Hexagonal. He likes t
 
 The center of your application is also not the database. Nor is it one or more of the frameworks you may be using. The center of your application are the use cases of your application. Persistence and UI are both annoying details that should be easily replaced.
 
-### Entities
+### Entities (Domain Model)
 Entities are business objects, functions or data structures, that are responsible for all the non application specific business rules.
 
 This means that if you have multiple applications that share the same domain (business) objects, the entities should not need to change in order to be usable by all of them.
 
 You want to make sure not to pass entities around (especially a), since they come with a bunch of business rules attached, instead you should pass value objects, or plain data structures.
 
-### Interactors or Use Cases
+### Interactors or Use Cases (Application Model)
 Interactors represent the layer for application specific business rules.
 
 This is where most of the magic happens, they control the entire flow of the application, using entities, but never changing them.
@@ -86,6 +86,11 @@ CQRS: [Command Query Responsibility Segregation](http://martinfowler.com/bliki/C
 Two separate concepts, but together create quite a unique architecture:
 * Domain Driven Design is a philosophy and methodology in which your domain model should represent the business problems that your app is actually solving
 * Command Query Responsibility Segregation is the strategy of separating commands from queries, as opposed to CRUD functionality which is represented in the same object.
+
+Greg Young said that doing doing domain driven design is impossible with a classic three layer architecture where DTOs are being shared across layers. With CQRS, Domain objects are not property buckets, they expose behavior. We can specialize our domain layer to process transactions. The code will be clearer and the aggregate boundaries will be a lot stronger
+
+![alt text](https://github.com/StevenACoffman/Pico/raw/master/topics/images/ddd-cqrs-greg-youngg "Greg Young DDD CQRS with Event sourcing")
+Image from Greg Young
 
 # 4. DCI
 
