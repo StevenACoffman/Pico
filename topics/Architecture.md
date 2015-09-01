@@ -101,7 +101,7 @@ Desribed in James' book: http://www.leansoftwarearchitecture.com/ and here: http
 
 The paradigm separates the domain model (data) from use cases (context) and Roles that objects play (interaction). DCI is complementary to model–view–controller (MVC). MVC as a pattern language is still used to separate the data and its processing from presentation.
 
-In summary, DCI architectures tend to be characterized by the following properties:
+DCI architectures tend to be characterized by the following properties:
 
 * The Data model reflects the domain structure rather than partitions of its behavior;
 * Objects dynamically take on Roles during use case enactments;
