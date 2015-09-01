@@ -1,4 +1,4 @@
-[Originally from http://andrzejonsoftware.blogspot.com/2013/12/the-four-architectures-that-will.html]
+[Some text from http://andrzejonsoftware.blogspot.com/2013/12/the-four-architectures-that-will.html]
 # The Four Application Architectures that will inspire your programming
 
 This is the Big 4. The application architectures that may help your work. They may influence the way you think about programming and software design.
