@@ -90,6 +90,7 @@ Two separate concepts, but together create quite a unique architecture:
 Greg Young said that doing doing domain driven design is impossible with a classic three layer architecture where DTOs are being shared across layers. With CQRS, Domain objects are not property buckets, they expose behavior. We can specialize our domain layer to process transactions. The code will be clearer and the aggregate boundaries will be a lot stronger
 
 ![alt text](https://github.com/StevenACoffman/Pico/raw/master/topics/images/ddd-cqrs-greg-youngg "Greg Young DDD CQRS with Event sourcing")
+
 Image from Greg Young
 
 # 4. DCI
