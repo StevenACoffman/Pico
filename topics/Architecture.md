@@ -112,6 +112,7 @@ DCI architectures tend to be characterized by the following properties:
 * Roles come in and out of scope with use case lifetimes, but objects that may play these Roles may persist across multiple use case lifetimes and may potentially play many Roles over their own lifetime.
 
 ![alt text](https://cdn.rawgit.com/StevenACoffman/Pico/master/topics/images/DCI.png "Reenskaug DCI")
+
 Image from Trygve Reenskaug [here](http://folk.uio.no/trygver/2008/commonsense.pdf)
 
 ## Why do we care?
