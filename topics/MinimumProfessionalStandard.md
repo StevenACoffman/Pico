@@ -1,4 +1,5 @@
-From Robert "Uncle Bob" Martin
+From Robert "Uncle Bob" Martin:
+
 1. Green Band.
 2. I Test.
 3. I Test First.
