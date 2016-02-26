@@ -15,7 +15,7 @@ out’.
 
 
 
-![Image of Pairon Chair](https://cdn.rawgit.com/StevenACoffman/Pico/master/topics/images/  "Pairon Chair")
+![Image of Pairon Chair](https://raw.githubusercontent.com/StevenACoffman/Pico/master/topics/images/pairon_chair.gif "Pairon Chair")
 
 These are some interesting findings from the [pairing academic research](http://salfreudenberg.wordpress.com/2013/11/16/10-years-of-thinking-about-pair-programming/):
 
