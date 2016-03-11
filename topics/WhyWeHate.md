@@ -2,6 +2,7 @@
 # Why We Hate
 
 Rush W. Dozier, Jr. has written the excellent "Why We Hate: Understanding, Curbing, and Eliminating Hate in Ourselves and Our World". In it, he briefly summarizes the following strategies:
+
 1. Be Specific
 2. Empathize
 3. Communicate

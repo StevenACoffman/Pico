@@ -3,7 +3,7 @@ hello@testdouble.com
 
 Front end craftsmanship Consulting
 
-Book - Growing object oriented software guided by tests 
+Book - Growing object oriented software guided by tests
 
 Jasmine
 What I don't do:
@@ -17,7 +17,7 @@ What I don't do:
 -monkey-patch the browser's XHR facilities
 -invoke a code by trigerring UI events
 -write async tests for async code
--say "llkfd <table/>" and skip writing tests against teh DOM
+-say "llkfd <table/>" and skip writing tests against the DOM
 -use HTML fixture files
 
 
@@ -67,23 +67,23 @@ What I do
 
 
 Coffeescript basics
-var add = function 
+var add = function
 add = (a, b) ->
  a + b
- 
+
  this.save();
  @save()
- 
+
  var self = this;
- save(function(){ 
+ save(function(){
    selfdisplay("Yay")!
  })
- 
+
  save =>
    @display("Yay!")
-   
- 
- 
+
+
+
 
 In TDD when the test fails each code change should either
 Pass the test, or change the message
@@ -91,6 +91,6 @@ Pass the test, or change the message
 
 
 Practicing TDD in JS for years taught me how to write better code
-When TDD feels rote, it means I learned something. 
+When TDD feels rote, it means I learned something.
 So then I use it less.
 Give it a try! I'll help!
