@@ -1,4 +1,4 @@
-*Pair Prograaming
+# Pair Prograaming
 
 We actively encourage pair programming. Most people who haven't tried it, don't think they will like it. Most people who try pairing, end up liking it.
 
