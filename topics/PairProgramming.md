@@ -15,7 +15,8 @@ out’.
 
 
 
-!pairon.jpg|border=1!
+![Image of Pairon Chair](https://raw.githubusercontent.com/StevenACoffman/Pico/master/topics/images/pairon_chair.gif "Pairon Chair")
+
 These are some interesting findings from the [pairing academic research](http://salfreudenberg.wordpress.com/2013/11/16/10-years-of-thinking-about-pair-programming/):
 
 * Common with other studies (in particular Dunning and Kruger), expert pair programmers under-rated their abilities whereas novices over-rated. This is discussed in more detail in a previous blog post.
