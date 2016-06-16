@@ -5,6 +5,7 @@ h3. _An investment in knowledge always pays the best interest._\---Benjamin Fran
 
 !images (1).jpeg|border=1,align=left,vspace=10,hspace=10!
 
+
 h5. What is this?
 
 Invest regularly in your knowledge portfolio, make learning a Habit. Every month members of the group will conduct workshops, have mini hack projects, present short and sweet presentations on a coding technique, third party library, new language, design methodology, etc. This will be mixed with articles, books or tools that the group ran across. *Very informal*
