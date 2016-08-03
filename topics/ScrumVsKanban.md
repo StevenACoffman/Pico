@@ -1,4 +1,6 @@
-# Summary of Scrum vs. Kanban (cribbed from Henrik Kniberg 2009)
+# Summary of Scrum vs. Kanban
+
+Cribbed from [Henrik Kniberg's Kanban Scrum Minibook](https://www.infoq.com/minibooks/kanban-scrum-minibook)
 
 ## Similarities
 
