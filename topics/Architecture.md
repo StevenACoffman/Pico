@@ -1,5 +1,9 @@
+### Application Architecture
+
+The most common, basic architecture is the [Multitier Architecture](https://en.wikipedia.org/wiki/Multitier_architecture). A simple monolithic web application backed by a database would have a presentation layer, business logic (or service) layer, and a persistence layer (Repositories/DAOs). Frameworks like Spring and Django support this well, and are nice for rapid application development. Beyond a certain level of complexity, developers need to have more sophisticated architectures.
+
 [Some text from http://andrzejonsoftware.blogspot.com/2013/12/the-four-architectures-that-will.html]
-# The Four Application Architectures that will inspire your programming
+### The Four Application Architectures that will inspire your programming
 
 This is the Big 4. The application architectures that may help your work. They may influence the way you think about programming and software design.
 
@@ -90,8 +94,10 @@ Two separate concepts, but together create quite a unique architecture:
 Greg Young said that doing doing domain driven design is impossible with a classic three layer architecture where DTOs are being shared across layers. With CQRS, Domain objects are not property buckets, they expose behavior. We can specialize our domain layer to process transactions. The code will be clearer and the aggregate boundaries will be a lot stronger
 
 ![alt text](https://github.com/StevenACoffman/Pico/raw/master/topics/images/ddd-cqrs-greg-young.jpg "Greg Young DDD CQRS with Event sourcing")
-
 Image from Greg Young
+
+![alt text](https://github.com/StevenACoffman/Pico/raw/master/topics/images/cqrs.png "Udi Dahan CQRS Autonomous Components")
+Image from Udi Dahan
 
 # 4. DCI
 
