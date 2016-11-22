@@ -26,6 +26,7 @@ For example, if a package supports the css file extraction you can run the autop
 | [react-native-web](https://github.com/necolas/react-native-web) | 0.0.11 | x | | | x | x | 129 | 2,947 | 171 |
 | [react-style](https://github.com/js-next/react-style) | 0.5.5 | | | x | x | x | 61 | 1,625 | 89 |
 | [reactcss](https://github.com/casesandberg/reactcss) | 0.3.2 | x | | | x | | 25 | 1,252 | 60 |
+| [styled-components](https://github.com/styled-components/styled-components) | 1.0.3 | x | x | x | | | 69 | 2666 | 96 |
 
 [Star History Chart](http://www.timqian.com/star-history/#Khan/aphrodite&FormidableLabs/radium&webpack/css-loader&gajus/react-css-modules&js-next/react-style&casesandberg/reactcss&petehunt/jsxstyle&styled-components/styled-components)
 
