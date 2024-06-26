@@ -1,4 +1,4 @@
-1. Pico
+# Pico
 Your Knowledge Portfolio
 ### *An investment in knowledge always pays the best interest.*\---Benjamin Franklin...
 
