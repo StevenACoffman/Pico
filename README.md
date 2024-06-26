@@ -2,8 +2,7 @@
 Your Knowledge Portfolio
 ### *An investment in knowledge always pays the best interest.*\---Benjamin Franklin...
 
-
-![](./topics/images/babythinking.jpg|border=1,align=left,vspace=10,hspace=10)
+![](topics/images/babythinking.jpg?raw=true&border=1,align=left,vspace=10,hspace=10)
 
 
 ##### What is this?
